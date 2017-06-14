@@ -6,38 +6,28 @@
  /* tslint:disable */
 
 
-import * as import0 from './app.component.css.shim.ngstyle';
-import * as import1 from '@angular/core';
-import * as import2 from '../../../src/app/app.component';
-const styles_AppComponent:any[] = [import0.styles];
-export const RenderType_AppComponent:import1.RendererType2 = import1.ɵcrt({
-  encapsulation: 0,
-  styles: styles_AppComponent,
-  data: {}
+import * as i0 from './app.component.css.shim.ngstyle';
+import * as i1 from '@angular/core';
+import * as i2 from '../../../src/app/app.component';
+const styles_AppComponent:any[] = [i0.styles];
+export const RenderType_AppComponent:i1.RendererType2 = i1.ɵcrt({encapsulation:0,styles:styles_AppComponent,
+    data:{}});
+export function View_AppComponent_0(_l:any):i1.ɵViewDefinition {
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'h1',([] as any[]),
+      (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
+      i1.ɵted((null as any),['\n  ','\n'])),(_l()(),i1.ɵted((null as any),['\n']))],
+      (null as any),(_ck,_v) => {
+        var _co:i2.AppComponent = _v.component;
+        const currVal_0:any = _co.title;
+        _ck(_v,1,0,currVal_0);
+      });
 }
-);
-export function View_AppComponent_0(l:any):import1.ɵViewDefinition {
-  return import1.ɵvid(0,[
-    (l()(),import1.ɵeld(0,(null as any),(null as any),1,'h1',([] as any[]),(null as any),(null as any),(null as any),(null as any),(null as any))),
-    (l()(),import1.ɵted((null as any),[
-      '\n  ',
-      '\n'
-    ]
-    )),
-    (l()(),import1.ɵted((null as any),['\n']))
-  ]
-  ,(null as any),(ck,v) => {
-    var co:import2.AppComponent = v.component;
-    const currVal_0:any = co.title;
-    ck(v,1,0,currVal_0);
-  });
+export function View_AppComponent_Host_0(_l:any):i1.ɵViewDefinition {
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'app-root',([] as any[]),
+      (null as any),(null as any),(null as any),View_AppComponent_0,RenderType_AppComponent)),
+      i1.ɵdid(49152,(null as any),0,i2.AppComponent,([] as any[]),(null as any),(null as any))],
+      (null as any),(null as any));
 }
-function View_AppComponent_Host_0(l:any):import1.ɵViewDefinition {
-  return import1.ɵvid(0,[
-    (l()(),import1.ɵeld(0,(null as any),(null as any),1,'app-root',([] as any[]),(null as any),(null as any),(null as any),View_AppComponent_0,RenderType_AppComponent)),
-    import1.ɵdid(49152,(null as any),0,import2.AppComponent,([] as any[]),(null as any),(null as any))
-  ]
-  ,(null as any),(null as any));
-}
-export const AppComponentNgFactory:import1.ComponentFactory<import2.AppComponent> = import1.ɵccf('app-root',import2.AppComponent,View_AppComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovd29yay94dWsvVEPntZDlkIgvdGVlc2hvdC9hb3RzYW1wbGUvc3JjL2FwcC9hcHAuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0M6L3dvcmsveHVrL1RD57WQ5ZCIL3RlZXNob3QvYW90c2FtcGxlL3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cyIsIm5nOi8vL0M6L3dvcmsveHVrL1RD57WQ5ZCIL3RlZXNob3QvYW90c2FtcGxlL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovd29yay94dWsvVEPntZDlkIgvdGVlc2hvdC9hb3RzYW1wbGUvc3JjL2FwcC9hcHAuY29tcG9uZW50LnRzLkFwcENvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxoMT5cbiAge3t0aXRsZX19XG48L2gxPlxuIiwiPGFwcC1yb290PjwvYXBwLXJvb3Q+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUNBQTtJQUFJO01BQUE7TUFBQTtJQUFBO0lBQUE7SUFFQzs7OztJQUZEO0lBQUE7Ozs7O0lDQUo7Z0JBQUE7Ozs7In0=
+export const AppComponentNgFactory:i1.ComponentFactory<i2.AppComponent> = i1.ɵccf('app-root',
+    i2.AppComponent,View_AppComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL3h1a2FpL2dpdC9uZzQvbmcyLWFvdC1hcHB3b3Jrcy9zcmMvYXBwL2FwcC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMveHVrYWkvZ2l0L25nNC9uZzItYW90LWFwcHdvcmtzL3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cyIsIm5nOi8vL1VzZXJzL3h1a2FpL2dpdC9uZzQvbmcyLWFvdC1hcHB3b3Jrcy9zcmMvYXBwL2FwcC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL3h1a2FpL2dpdC9uZzQvbmcyLWFvdC1hcHB3b3Jrcy9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMuQXBwQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGgxPlxuICB7e3RpdGxlfX1cbjwvaDE+XG4iLCI8YXBwLXJvb3Q+PC9hcHAtcm9vdD4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7b0JDQUE7TUFBQSx3RUFBSTthQUFBLCtCQUVDOzs7UUFGRDtRQUFBOzs7O29CQ0FKO01BQUE7YUFBQTs7OzsifQ==
