@@ -21,5 +21,4 @@ before_script:
 - npm install -g npm
 - npm install -g @angular/cli
 - npm install -g lite-server
-- npm install
 - ng build
